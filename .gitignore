@@ -1,0 +1,109 @@
+# ==========================================
+# Flutter / Dart
+# ==========================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+.widget_preview/
+
+# Símbolos e ofuscação de compilação
+app.*.symbols
+app.*.map.json
+
+# ==========================================
+# Android
+# ==========================================
+**/android/.gradle
+**/android/captures/
+**/android/gradleBuild/
+**/android/.cxx/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Arquivo com caminhos locais do SDK da sua máquina (NÃO ENVIAR)
+**/android/local.properties
+
+# ==========================================
+# iOS / macOS
+# ==========================================
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/.symlinks/
+**/ios/Pods/
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Pods/
+
+# ==========================================
+# Windows & Linux Desktop
+# ==========================================
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# ==========================================
+# Arquivos de Senhas, Chaves e Segredos (CRÍTICO)
+# ==========================================
+# Chaves de assinatura de aplicativos
+*.keystore
+*.jks
+*.p12
+*.p8
+*.key
+*.mobileprovision
+key.properties
+
+# Variáveis de ambiente e tokens secretos
+.env
+.env.*
+*.env
+
+# ==========================================
+# IDEs e Editores
+# ==========================================
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+
+# Outros editores
+*.swp
+*.bak
+*.tmp
+*~
+
+# ==========================================
+# Arquivos do Sistema Operacional
+# ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================================
+# Logs e Diversos
+# ==========================================
+*.log
+.history
